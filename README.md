@@ -19,8 +19,8 @@ A simple script that uses Github Actions and [ntfy.sh](https://ntfy.sh/) to peri
 You can specify which websites to poll and under what conditions the script should notify you in `watch.json`. 
 
 The file consists of a list of key-value pairs. 
-You specify the name of each website / notification as the key of an entry.
-A value must contain at least:
+You specify the name of each website / notification as the key of an entry. This is the name that will appear in notifications.
+The value of each key must be another object and contain at least:
 
 - `"url"`: the url to monitor (with GET requests)
 - `"on"`: the criteria that will trigger a notification. `"in"` will notify if the text in `"txt"` is in the retried HTML, `"not_in"` the opposite, and `"change"` will do so if the page changes from a cached version. 
