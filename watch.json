@@ -6,7 +6,7 @@
     },
     "Convocatoria CONAHCYT 2024":{
         "url":"https://conahcyt.mx/convocatorias/convocatorias-becas-al-extranjero/convocatorias-abiertas-becas-al-extranjero/",
-        "on":"in",
+        "on":"not_in",
         "txt":"2024"
     }
 }
