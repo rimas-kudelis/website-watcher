@@ -28,7 +28,3 @@ The value of each key must be another object and contain at least:
 You must include a `"txt"` field if `"on"` is either `"in"` or `"not_in"`.
 
 Note: `"change"` will automatically cache the page the first time the script is ran and will overwrites cached version when a change is detected. 
-
-
-## TODOs
-- `"id"` support: only look at a certain HTML element
