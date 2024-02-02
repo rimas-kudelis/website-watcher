@@ -7,7 +7,7 @@ def should_notify(watch_item: dict) -> bool:
     
     # If we can't get the html, we don't notify
     try:
-        html = utils.get_html(watch_item['url'])
+        html = utils.get_html(watch_item['url'], watch_item.get('html_id'))
     except:
         return False
     

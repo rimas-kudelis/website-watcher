@@ -1,19 +1,19 @@
 import requests, os
+from bs4 import BeautifulSoup
 
 def write_to_cache(path_to_cached: str, html: str) -> None:
     os.makedirs('cache', exist_ok = True)
     with open(path_to_cached, 'w+') as f:
         f.write(html)
 
-def get_html(url: str) -> str:
+def get_html(url: str, html_id: str) -> str:
     """Gets HTML content with requests"""
     response = requests.get(url) # verify = False to ignore SSL errors
     html = response.content.decode("utf-8", "ignore")
+    if html_id:
+        b = BeautifulSoup(html, 'html.parser')
+        html = str(b.find(id=html_id))
     return html
-
-def get_html_id_content(html: str, html_id: str) -> str:
-    """Gets content of the first html element with id `html_id`"""
-    return html.split(f'id="{html_id}"')[1].split('>')[1].split('</')[0]
 
 
 def notify(name: str, watch_item: dict, ntfy_topic: str) -> None:
