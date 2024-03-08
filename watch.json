@@ -1,7 +1,7 @@
 {
     "Marie Curie Scholarship":{
         "url":"https://www.iaea.org/services/key-programmes/iaea-marie-sklodowska-curie-fellowship-programme",
-        "on":"not_int",
+        "on":"not_in",
         "txt":"The application period is now closed.",
         "html_id":"section-1"
     }
