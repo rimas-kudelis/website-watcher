@@ -4,5 +4,10 @@
         "on":"not_in",
         "txt":"The application period is now closed.",
         "html_id":"section-1"
+    },
+    "GSI positions":{
+        "url":"https://careers.umich.edu/browse-jobs/career_interests/171",
+        "on":"change",
+        "txt":"statistics"
     }
 }
