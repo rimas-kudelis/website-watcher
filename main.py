@@ -1,4 +1,4 @@
-import json, os, sys
+import json, os, sys, re
 import utils
 from bs4 import BeautifulSoup
 
@@ -12,11 +12,16 @@ def should_notify(watch_item: dict) -> bool:
     except:
         return None
     
+    # Check if the text is in the html (case insensitive)
+    is_in = False
+    if 'txt' in watch_item:
+        is_in = re.search(watch_item['txt'], html, re.IGNORECASE) is not None
+
     if watch_item['on'] == 'in':
-        return watch_item['txt'] in html
+        return is_in
     
     elif watch_item['on'] == 'not_in':
-        return watch_item['txt'] not in html
+        return not is_in
 
     elif watch_item['on'] == 'change':
         
