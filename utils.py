@@ -16,7 +16,7 @@ def get_html(url: str, html_id: str) -> str:
     return html
 
 
-def notify(name: str, watch_item: dict, ntfy_topic: str) -> None:
+def notify(name: str, watch_item: dict, ntfy_topic: str, reacheable: bool = True) -> None:
     """Uses ntfy.sh to send notification to user"""
     requests.post(
         "https://ntfy.sh/" + ntfy_topic,
@@ -24,7 +24,7 @@ def notify(name: str, watch_item: dict, ntfy_topic: str) -> None:
             "Title": name,
             "Tags": "website-watcher",
         },
-        data = 'Has triggered: ' + watch_item['url']
+        data = 'Has triggered: ' + watch_item['url'] if reacheable else 'Could not reach: ' + watch_item['url']
     )
 
 

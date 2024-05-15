@@ -1,15 +1,16 @@
 import json, os, sys
 import utils
+from bs4 import BeautifulSoup
 
 
 def should_notify(watch_item: dict) -> bool:
     """Determines if user should be notified of change/insertion/deletion"""
     
-    # If we can't get the html, we don't notify
+    # If we can't get the html, return None to notify as unreachable
     try:
         html = utils.get_html(watch_item['url'], watch_item.get('html_id'))
     except:
-        return False
+        return None
     
     if watch_item['on'] == 'in':
         return watch_item['txt'] in html
@@ -22,15 +23,22 @@ def should_notify(watch_item: dict) -> bool:
         str_url = watch_item['url'].replace('/', '_')
         path_to_cached = os.path.join('cache', str_url) 
 
+        def html_section(html: str) -> str:
+            """Returns the section of the html that we want to compare"""
+            if watch_item.get('html_id'):
+                b = BeautifulSoup(html, 'html.parser')
+                return str(b.find(id = watch_item['html_id']))
+            return html
+
         # If we've cached the page, we notify if there are differences
         if os.path.exists(path_to_cached):
             with open(path_to_cached, 'r') as f:
-                cached = f.read()
+                cached = html_section(f.read())
 
             # But we still write the new page to the cache
             utils.write_to_cache(path_to_cached, html)
                 
-            return cached != html
+            return cached != html_section(html)
         
         # Otherwise we just save the page and don't notify
         else:
@@ -66,8 +74,12 @@ if __name__ == '__main__':
             continue
 
         # Notify user if necessary
-        if should_notify(watch_item):
+        should = should_notify(watch_item)
+        if should:
             print(f'- NOTIFY: YES\tITEM: "{name}"')
             utils.notify(name, watch_item, ntfy_topic)
+        elif should is None:
+            print(f'- NOTIFY: ERR\tITEM: "{name}"')
+            utils.notify(name, watch_item, ntfy_topic, reacheable = False)
         else:
             print(f'- NOTIFY: NO\tITEM: "{name}"')
