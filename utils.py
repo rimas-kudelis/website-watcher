@@ -22,6 +22,7 @@ def notify(name: str, watch_item: dict, ntfy_topic: str, reacheable: bool = True
         "https://ntfy.sh/" + ntfy_topic,
         headers = {
             "Title": name,
+            "Click": watch_item['url'],
             "Tags": "website-watcher",
         },
         data = 'Has triggered: ' + watch_item['url'] if reacheable else 'Could not reach: ' + watch_item['url']
