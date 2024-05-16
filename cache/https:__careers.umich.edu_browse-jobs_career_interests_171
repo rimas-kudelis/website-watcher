@@ -1,5 +1,5 @@
 <div id="block-system-main-block">
-<div class="views-element-container"><div class="js-view-dom-id-90726ac359fd3f6ea762e096aec53e7623c362b2564b922f305f555eb74e0314">
+<div class="views-element-container"><div class="js-view-dom-id-cc6fe26110ce8ace01cbebd98d6fe911da4a5c3bdda42f7fa806cba1b5c069a6">
 <header>
 <p><a href="/search-jobs"> Back to main search page</a></p>
 </header>
@@ -15,7 +15,7 @@
 </thead>
 <tbody>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-05-01T14:02:16-04:00">5/1/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-05-01T01:02:21-04:00">5/1/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/248539/grad-stu-staff-asst" hreflang="en">GRAD STU STAFF ASST</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">248539          </td>
@@ -23,7 +23,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-04-26T14:02:12-04:00">4/26/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-04-26T01:02:17-04:00">4/26/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/248313/disability-culture-graduate-student-staff-assistant" hreflang="en">Disability Culture Graduate Student Staff Assistant</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">248313          </td>
@@ -31,7 +31,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T13:01:53-05:00">3/1/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:02:01-05:00">3/1/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/245786/f24e100gsi" hreflang="en">F24E100GSI</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">245786          </td>
@@ -39,7 +39,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T13:01:53-05:00">3/1/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:02:01-05:00">3/1/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/245787/f24e151gsi" hreflang="en">F24E151GSI</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">245787          </td>
