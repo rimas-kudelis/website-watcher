@@ -1,5 +1,5 @@
 <div id="block-system-main-block">
-<div class="views-element-container"><div class="js-view-dom-id-abbddaed6cf90d25cc112dd1229791e6bc7cff0aefcf6b5b8482fd39d1535ce2">
+<div class="views-element-container"><div class="js-view-dom-id-47d67217e976e23c406ab222e1aaf0080df98aa5c5b2709ba8e5d6d266a2c60b">
 <header>
 <p><a href="/search-jobs"> Back to main search page</a></p>
 </header>
@@ -15,7 +15,15 @@
 </thead>
 <tbody>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-05-24T01:03:06-04:00">5/24/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-05-31T01:03:03-04:00">5/31/2024</time>
+</td>
+<td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/249854/graduate-student-staff-assistant" hreflang="en">Graduate Student Staff Assistant</a> </td>
+<td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">249854          </td>
+<td class="views-field views-field-field-job-department" headers="view-field-job-department-table-column">Sch of Public Hlth-Dean's Ofc          </td>
+<td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
+</tr>
+<tr>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-05-24T01:02:56-04:00">5/24/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/249620/dei-gssa-school-kinesiology" hreflang="en">DEI GSSA - School of Kinesiology</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">249620          </td>
@@ -23,7 +31,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-05-23T01:03:04-04:00">5/23/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-05-23T01:02:54-04:00">5/23/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/249563/taubman-college-f24-urban-planning-gsi-limited-availability-position-urp-520" hreflang="en">Taubman College F24 Urban Planning GSI (Limited Availability Position) URP 520</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">249563          </td>
@@ -31,7 +39,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-05-16T01:02:38-04:00">5/16/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-05-16T01:02:30-04:00">5/16/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/247702/graduate-student-instructor-si-425-fall-2024" hreflang="en">Graduate Student Instructor - SI 425 Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">247702          </td>
@@ -39,7 +47,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-05-01T01:02:45-04:00">5/1/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-05-01T01:02:35-04:00">5/1/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/248539/grad-stu-staff-asst" hreflang="en">GRAD STU STAFF ASST</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">248539          </td>
@@ -47,7 +55,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:02:30-05:00">3/1/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:02:23-05:00">3/1/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/245786/f24e100gsi" hreflang="en">F24E100GSI</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">245786          </td>
@@ -55,7 +63,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:02:30-05:00">3/1/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:02:23-05:00">3/1/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/245787/f24e151gsi" hreflang="en">F24E151GSI</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">245787          </td>
