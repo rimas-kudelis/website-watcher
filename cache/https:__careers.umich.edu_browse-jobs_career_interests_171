@@ -1,5 +1,5 @@
 <div id="block-system-main-block">
-<div class="views-element-container"><div class="js-view-dom-id-580cbe007a250829eab188c95f5a04493fda8713f2bff8533091606af14ec925">
+<div class="views-element-container"><div class="js-view-dom-id-bb62283c84cbbb0bc83e13d5d6189e06ae7f98349a278956a1103be5c6df2663">
 <header>
 <p><a href="/search-jobs"> Back to main search page</a></p>
 </header>
@@ -15,15 +15,7 @@
 </thead>
 <tbody>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-05-31T01:02:35-04:00">5/31/2024</time>
-</td>
-<td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/249854/graduate-student-staff-assistant" hreflang="en">Graduate Student Staff Assistant</a> </td>
-<td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">249854          </td>
-<td class="views-field views-field-field-job-department" headers="view-field-job-department-table-column">Sch of Public Hlth-Dean's Ofc          </td>
-<td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
-</tr>
-<tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:02:07-05:00">3/1/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:02:02-05:00">3/1/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/245786/f24e100gsi" hreflang="en">F24E100GSI</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">245786          </td>
@@ -31,7 +23,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:02:07-05:00">3/1/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:02:02-05:00">3/1/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/245787/f24e151gsi" hreflang="en">F24E151GSI</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">245787          </td>
