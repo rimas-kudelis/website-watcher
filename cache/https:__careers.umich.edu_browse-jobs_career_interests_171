@@ -1,5 +1,5 @@
 <div id="block-system-main-block">
-<div class="views-element-container"><div class="js-view-dom-id-f80d697396ddef1d7699e0e8cc4b50a98fc6078e5cedb2b4fe80cd6ac0274449">
+<div class="views-element-container"><div class="js-view-dom-id-d443707e2b90421a4c3db19afe85ed00152f57f05b9b06952541fb1f56fe8003">
 <header>
 <p><a href="/search-jobs"> Back to main search page</a></p>
 </header>
@@ -15,7 +15,23 @@
 </thead>
 <tbody>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-22T01:02:13-04:00">7/22/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-24T01:02:40-04:00">7/24/2024</time>
+</td>
+<td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/252112/grad-stu-instr-environ-321-instructor-maria-lemos-25" hreflang="en">GRAD STU INSTR ENVIRON 321 (Instructor Maria Lemos) 25%</a> </td>
+<td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">252112          </td>
+<td class="views-field views-field-field-job-department" headers="view-field-job-department-table-column">Program in the Environment          </td>
+<td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
+</tr>
+<tr>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-24T01:02:34-04:00">7/24/2024</time>
+</td>
+<td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251910/grad-stu-instr-fall-2024-program-biology" hreflang="en">GRAD STU INSTR - Fall 2024 (Program in Biology)</a> </td>
+<td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251910          </td>
+<td class="views-field views-field-field-job-department" headers="view-field-job-department-table-column">LSA Biology - Undergraduate          </td>
+<td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
+</tr>
+<tr>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-22T01:02:37-04:00">7/22/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251980/gsi-phil-110-fall-2024" hreflang="en">GSI - PHIL 110 (Fall 2024)</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251980          </td>
@@ -23,7 +39,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-22T01:02:13-04:00">7/22/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-22T01:02:37-04:00">7/22/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251979/gsi-phil-215-fall-2024" hreflang="en">GSI - PHIL 215 (Fall 2024)</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251979          </td>
@@ -31,7 +47,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-22T01:02:13-04:00">7/22/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-22T01:02:37-04:00">7/22/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251978/gsi-phil-250-fall-2024" hreflang="en">GSI - PHIL 250 (Fall 2024)</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251978          </td>
@@ -39,7 +55,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-22T01:02:13-04:00">7/22/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-22T01:02:36-04:00">7/22/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251977/gsi-phil-340-fall-2024" hreflang="en">GSI - PHIL 340 (Fall 2024)</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251977          </td>
@@ -47,7 +63,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-22T01:02:13-04:00">7/22/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-22T01:02:36-04:00">7/22/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251976/gsi-phil-288-fall-2024" hreflang="en">GSI - PHIL 288 (Fall 2024)</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251976          </td>
@@ -55,7 +71,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-22T01:02:08-04:00">7/22/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-22T01:02:32-04:00">7/22/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251833/grad-stu-instr-psych-345-25-fall-2024" hreflang="en">Grad Stu Instr - Psych 345 (25%), Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251833          </td>
@@ -63,7 +79,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-18T01:02:08-04:00">7/18/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-18T01:02:31-04:00">7/18/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251810/grad-stu-instr" hreflang="en">GRAD STU INSTR</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251810          </td>
@@ -71,7 +87,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-17T01:02:07-04:00">7/17/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-17T01:02:31-04:00">7/17/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251802/grad-stu-instr-aas-275-fall-2024" hreflang="en">GRAD STU INSTR - AAS 275 - Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251802          </td>
@@ -79,7 +95,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-17T01:01:43-04:00">7/17/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-17T01:02:06-04:00">7/17/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/249303/grad-stu-instr-aas-322-fall-2024" hreflang="en">GRAD STU INSTR - AAS 322 (FALL 2024)</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">249303          </td>
@@ -87,7 +103,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-17T01:01:37-04:00">7/17/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-17T01:02:00-04:00">7/17/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/246787/grad-stu-instr-aas-254-fall-2024" hreflang="en">GRAD STU INSTR - AAS 254 (Fall 2024)</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">246787          </td>
@@ -95,7 +111,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-16T01:02:06-04:00">7/16/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-16T01:02:29-04:00">7/16/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251760/grad-stu-instr-slavic-312-fall-2024" hreflang="en">GRAD STU INSTR - Slavic 312 (Fall 2024)</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251760          </td>
@@ -103,7 +119,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-16T01:02:06-04:00">7/16/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-16T01:02:29-04:00">7/16/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251759/grad-stu-instr-czech-315-fall-2024" hreflang="en">GRAD STU INSTR - Czech 315 (Fall 2024)</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251759          </td>
@@ -111,15 +127,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:04-04:00">7/15/2024</time>
-</td>
-<td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251714/gsi-earth-331-fall-2024-35" hreflang="en">GSI EARTH 331 Fall 2024 (35%)</a> </td>
-<td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251714          </td>
-<td class="views-field views-field-field-job-department" headers="view-field-job-department-table-column">LSA Earth &amp; Environmental Sci.          </td>
-<td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
-</tr>
-<tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:04-04:00">7/15/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:28-04:00">7/15/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251718/gsi-earth-408-fall-2024" hreflang="en">GSI EARTH 408 Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251718          </td>
@@ -127,7 +135,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:04-04:00">7/15/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:28-04:00">7/15/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251717/gsi-earth-380-fall-2024" hreflang="en">GSI EARTH 380 Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251717          </td>
@@ -135,7 +143,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:04-04:00">7/15/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:27-04:00">7/15/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251715/gsi-earth-333-fall-2024" hreflang="en">GSI EARTH 333 Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251715          </td>
@@ -143,7 +151,15 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:04-04:00">7/15/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:27-04:00">7/15/2024</time>
+</td>
+<td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251714/gsi-earth-331-fall-2024-35" hreflang="en">GSI EARTH 331 Fall 2024 (35%)</a> </td>
+<td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251714          </td>
+<td class="views-field views-field-field-job-department" headers="view-field-job-department-table-column">LSA Earth &amp; Environmental Sci.          </td>
+<td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
+</tr>
+<tr>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:27-04:00">7/15/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251713/gsi-earth-305-fall-2024" hreflang="en">GSI EARTH 305 Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251713          </td>
@@ -151,7 +167,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:04-04:00">7/15/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:27-04:00">7/15/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251712/gsi-earth-223-fall-2024" hreflang="en">GSI EARTH 223 Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251712          </td>
@@ -159,7 +175,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:04-04:00">7/15/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:27-04:00">7/15/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251711/gsi-earth-222-fall-2024" hreflang="en">GSI EARTH 222 Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251711          </td>
@@ -167,7 +183,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:04-04:00">7/15/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:27-04:00">7/15/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251710/gsi-earth-201-fall-2024" hreflang="en">GSI EARTH 201 Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251710          </td>
@@ -175,7 +191,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:04-04:00">7/15/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:27-04:00">7/15/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251709/gsi-earth-minicourses-fall-2024" hreflang="en">GSI EARTH Minicourses Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251709          </td>
@@ -183,7 +199,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:04-04:00">7/15/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:27-04:00">7/15/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251707/gsi-earth-219-fall-2024" hreflang="en">GSI Earth 219 Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251707          </td>
@@ -191,7 +207,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:03-04:00">7/15/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-15T01:02:26-04:00">7/15/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251664/grad-stu-instr-communication-and-media-fall-2024" hreflang="en">GRAD STU INSTR - Communication and Media - Fall 2024</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251664          </td>
@@ -199,7 +215,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-11T01:02:01-04:00">7/11/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-11T01:02:24-04:00">7/11/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251566/graduate-student-instructor" hreflang="en">Graduate Student Instructor</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251566          </td>
@@ -207,7 +223,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-11T01:02:00-04:00">7/11/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-11T01:02:23-04:00">7/11/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251547/gsi-grader" hreflang="en">GSI Grader</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251547          </td>
@@ -215,7 +231,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-11T01:01:52-04:00">7/11/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-11T01:02:16-04:00">7/11/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/250919/gssa-rmf-programming" hreflang="en">GSSA for RMF Programming</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">250919          </td>
@@ -223,39 +239,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-10T01:01:59-04:00">7/10/2024</time>
-</td>
-<td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251480/gsi-os-410-fall-2024" hreflang="en">GSI OS 410- Fall 2024</a> </td>
-<td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251480          </td>
-<td class="views-field views-field-field-job-department" headers="view-field-job-department-table-column">LSA Organizational Studies          </td>
-<td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
-</tr>
-<tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-10T01:01:59-04:00">7/10/2024</time>
-</td>
-<td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251477/gsi-os-305-fall-2024" hreflang="en">GSI OS 305 - Fall 2024</a> </td>
-<td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251477          </td>
-<td class="views-field views-field-field-job-department" headers="view-field-job-department-table-column">LSA Organizational Studies          </td>
-<td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
-</tr>
-<tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-10T01:01:59-04:00">7/10/2024</time>
-</td>
-<td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251474/gsi-os-295-fall-2024" hreflang="en">GSI OS 295 - Fall 2024</a> </td>
-<td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251474          </td>
-<td class="views-field views-field-field-job-department" headers="view-field-job-department-table-column">LSA Organizational Studies          </td>
-<td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
-</tr>
-<tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-07-10T01:01:58-04:00">7/10/2024</time>
-</td>
-<td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/251430/graduate-student-instructor-gsi" hreflang="en">Graduate Student Instructor (GSI)</a> </td>
-<td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">251430          </td>
-<td class="views-field views-field-field-job-department" headers="view-field-job-department-table-column">LSA UG: Curriculum Support          </td>
-<td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
-</tr>
-<tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:01:36-05:00">3/1/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:01:58-05:00">3/1/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/245786/f24e100gsi" hreflang="en">F24E100GSI</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">245786          </td>
@@ -263,7 +247,7 @@
 <td class="views-field views-field-field-job-work-location" headers="view-field-job-work-location-table-column">Ann Arbor Campus          </td>
 </tr>
 <tr>
-<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:01:36-05:00">3/1/2024</time>
+<td class="views-field views-field-created" headers="view-created-table-column"><time datetime="2024-03-01T00:01:58-05:00">3/1/2024</time>
 </td>
 <td class="views-field views-field-title" headers="view-title-table-column"><a href="/job_detail/245787/f24e151gsi" hreflang="en">F24E151GSI</a> </td>
 <td class="views-field views-field-field-job-opening-id" headers="view-field-job-opening-id-table-column">245787          </td>
