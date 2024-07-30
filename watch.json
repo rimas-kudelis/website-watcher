@@ -1,9 +1,4 @@
 {
-    "Marie Curie Scholarship":{
-        "url":"https://www.iaea.org/services/key-programmes/iaea-marie-sklodowska-curie-fellowship-programme",
-        "on":"not_in",
-        "txt":"The application period is now closed."
-    },
     "GSI positions":{
         "url":"https://careers.umich.edu/browse-jobs/career_interests/171",
         "on":"change",
