@@ -1,7 +1,9 @@
 {
-    "GSI positions":{
-        "url":"https://careers.umich.edu/browse-jobs/career_interests/171",
-        "on":"change",
-        "html_id":"block-system-main-block"
+    "GSI positions": {
+        "url": "https://careers.umich.edu/browse-jobs/career_interests/171",
+        "on": "change",
+        "repeat": "forever",
+        "html_id": "block-system-main-block",
+        "hash": "c33ea864338bfe551e28c1ce309ef2e0ba5d2bac1fb00fcc2fbe25171ad54798"
     }
 }

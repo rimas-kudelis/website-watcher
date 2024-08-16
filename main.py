@@ -1,5 +1,4 @@
-import json, os, sys, re
-import utils
+import json, sys, re, requests, hashlib
 from bs4 import BeautifulSoup
 
 
@@ -8,7 +7,9 @@ def should_notify(watch_item: dict) -> bool:
     
     # If we can't get the html, return None to notify as unreachable
     try:
-        html = utils.get_html(watch_item['url'], watch_item.get('html_id'))
+        url = watch_item['url']
+        response = requests.get(url) # verify = False to ignore SSL errors
+        html = response.text
     except:
         return None
     
@@ -24,31 +25,59 @@ def should_notify(watch_item: dict) -> bool:
         return not is_in
 
     elif watch_item['on'] == 'change':
+
+        to_hash = response.content
+
+        if watch_item.get('html_id'):
+
+            b = BeautifulSoup(html, 'html.parser')
+            sec = b.find(id = watch_item['html_id'])
+            if sec is None:
+                print(f'Could not find html_id for {watch_item["url"]}')
+                return None
+            to_hash = sec.encode()
         
-        str_url = watch_item['url'].replace('/', '_')
-        path_to_cached = os.path.join('cache', str_url) 
+        old_hash = watch_item.get('hash')
+        new_hash = hashlib.sha256(to_hash).hexdigest()
+        print(f'\tOld hash: {old_hash} New hash: {new_hash} Same: {old_hash == new_hash}')
 
-        def html_section(html: str) -> str:
-            """Returns the section of the html that we want to compare"""
-            if watch_item.get('html_id'):
-                b = BeautifulSoup(html, 'html.parser')
-                return str(b.find(id = watch_item['html_id']))
-            return html
+        notify = (old_hash is not None) and (old_hash != new_hash)
+        watch_item['hash'] = new_hash
+        return notify
+    
+def notify(name: str, watch_item: dict, ntfy_topic: str, reacheable: bool = True) -> None:
+    """Uses ntfy.sh to send notification to user"""
+    print(f'\tNotifying "{name}" \tReachable: {reacheable}')
+    requests.post(
+        "https://ntfy.sh/" + ntfy_topic,
+        headers = {
+            "Title": name,
+            "Click": watch_item['url'],
+            "Tags": "website-watcher",
+        },
+        data = 'Has triggered: ' + watch_item['url'] if reacheable else 'Could not reach: ' + watch_item['url']
+    )
 
-        # If we've cached the page, we notify if there are differences
-        if os.path.exists(path_to_cached):
-            with open(path_to_cached, 'r') as f:
-                cached = html_section(f.read())
 
-            # But we still write the new page to the cache
-            utils.write_to_cache(path_to_cached, html)
-                
-            return cached != html_section(html)
-        
-        # Otherwise we just save the page and don't notify
-        else:
-            utils.write_to_cache(path_to_cached, html)
-            return False
+def invalid_watch_item_msg(name: str, watch_item: dict) -> str:
+    """Validates a watch item"""
+
+    if not isinstance(watch_item, dict):
+        return f'Watch item "{name}" is not a dictionary'
+    
+    if not 'url' in watch_item:
+        return f'Watch item "{name}" does not have a `url`'
+    
+    if not 'on' in watch_item or not watch_item['on'] in ['in', 'not_in', 'change']:
+        return f'Watch item "{name}" does not have a valid `on`'
+    
+    if watch_item['on'] in ['in', 'not_in'] and not 'txt' in watch_item:
+        return f'Watch item "{name}" does not have a `txt`'
+    
+    if watch_item.get('repeat', 'once') not in ['once', 'forever']:
+        return f'Watch item "{name}" does not have a valid `repeat`'
+    
+    return None
 
 
 if __name__ == '__main__':
@@ -70,21 +99,39 @@ if __name__ == '__main__':
         print('Could not read watch.json')
         exit()
 
+    to_del = []
     for name, watch_item in watch_items.items():
 
+        print(f'Checking "{name}":')
+
         # Validate watch item
-        msg = utils.invalid_watch_item_msg(name, watch_item)
+        msg = invalid_watch_item_msg(name, watch_item)
         if msg:
             print(msg)
             continue
 
         # Notify user if necessary
         should = should_notify(watch_item)
+        
         if should:
-            print(f'- NOTIFY: YES\tITEM: "{name}"')
-            utils.notify(name, watch_item, ntfy_topic)
+            print(f'\tNOTIFY: YES')
+            notify(name, watch_item, ntfy_topic)
+
+            # Delete watch item if it should only be checked once
+            if watch_item.get('repeat', 'once') == 'once':
+                to_del.append(name)
+                print(f'\tDeleted "{name}"')
+
         elif should is None:
-            print(f'- NOTIFY: ERR\tITEM: "{name}"')
-            utils.notify(name, watch_item, ntfy_topic, reacheable = False)
+            print(f'\tNOTIFY: ERR')
+            notify(name, watch_item, ntfy_topic, reacheable = False)
         else:
-            print(f'- NOTIFY: NO\tITEM: "{name}"')
+            print(f'\tNOTIFY: NO')
+    
+    # Delete watch items that should only be checked once
+    for name in to_del:
+        del watch_items[name]
+        
+    # Overwrite watch.json with updated watch_items
+    with open('watch.json','w+') as f:
+        f.write(json.dumps(watch_items, indent = 4))
