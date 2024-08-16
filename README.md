@@ -2,7 +2,7 @@
 
 A simple script that uses Github Actions and [ntfy.sh](https://ntfy.sh/) to periodically poll websites and notify you when they change -- for free. You can be notified when the site adds/removes a string or changes content.
 
-Note: it does not support dynamically generated sites, as it only compares the HTML it receives.
+Note: it does not detect changes in  dynamically generated sites, images or other external assets. It only compares the HTML it receives. 
 
 ## Get started
 1. Fork this repository.
@@ -11,7 +11,7 @@ Note: it does not support dynamically generated sites, as it only compares the H
 
 3. Set your [ntfy.sh topic name](https://docs.ntfy.sh/) as a [repository secret](https://docs.github.com/es/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository) with name the `NTFY_TOPIC`.
 
-4. Edit `.github/workflows/poll-websites` line 6 with the cron schedule expression of your preference. Default is `"0 6 * * *"` (daily at 6 am).
+4. Edit `.github/workflows/poll-websites` line 6 with the cron schedule expression of your preference. Default is `"0 6 * * *"` (daily at 6 am UTC).
 
 4. Edit `watch.json`.
 
@@ -29,4 +29,4 @@ The value of each key must be another object and contain at least:
 
 You must include a `"txt"` field if `"on"` is either `"in"` or `"not_in"`.
 
-Note: `"change"` will automatically cache the page the first time the script is ran and will overwrites cached version when a change is detected.
+**By default, once an update is sent the website item will be removed from the watch list**. You can change this behavior by including `"repeat": "forever"`.
