@@ -1,6 +1,8 @@
 # Website Watcher
 
-A simple script that uses Github Actions and [ntfy.sh](https://ntfy.sh/) to periodically poll websites and notify you of changes in the HTML.
+A simple script that uses Github Actions and [ntfy.sh](https://ntfy.sh/) to periodically poll websites and notify you when they change -- for free. You can be notified when the site adds/removes a string or changes content.
+
+Note: it does not support dynamically generated sites, as it only compares the HTML it receives.
 
 ## Get started
 1. Fork this repository.
