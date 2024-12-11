@@ -1,9 +1,8 @@
 {
     "GSI positions": {
-        "url": "https://careers.umich.edu/browse-jobs/career_interests/171",
-        "on": "change",
-        "repeat": "forever",
-        "html_id": "block-system-main-block",
-        "hash": "b2b77453e96dfc81cf119f6e09630cd60517f851b36f8a29f8fde57358ca3c26"
+        "url": "https://www.lidl.lt/c/deluxe-gurmaniski-produktai/a10033369",
+        "on": "in",
+        "txt": "tuno",
+        "repeat": "forever"
     }
 }
