@@ -4,5 +4,17 @@
         "on": "in",
         "txt": "tuno",
         "repeat": "forever"
+    },
+    "APVA baterijos!": {
+        "url": "https://apvis.apva.lt/",
+        "on": "in",
+        "txt": "baterij",
+        "repeat": "forever"
+    },
+    "APVA akumuliatoriai!": {
+        "url": "https://apvis.apva.lt/",
+        "on": "in",
+        "txt": "akumuliat",
+        "repeat": "forever"
     }
 }
